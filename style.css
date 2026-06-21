@@ -536,6 +536,9 @@ footer .copy{
 
 
 
+
+
+
 @media screen and (max-width:811px) and (min-width:768px){
     .ul{
         flex-direction: column;
@@ -1026,7 +1029,13 @@ height:40px;
     }
 }
 
+@media (min-width:550px) {
 
+.table tr th{
+    text-align: left !important;
+}
+    
+}
 
     @media screen and (max-width:506px) and (min-width:430px){
 
